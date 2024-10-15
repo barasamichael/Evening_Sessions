@@ -1,0 +1,55 @@
+Create a restaurant application that allows a manager to login and manage food items. The manager should do the following:
+1. Add food items
+2. Delete food items
+3. Update food items
+4. View food items
+
+Register
+Logout
+Login
+
+Manager:
+- manager_id
+- name
+- years_of_experience
+- password
+- email_address
+- phone_number
+
+Food Items:
+- food_id
+- name
+- category
+- purchase_date
+- price
+- quantity
+
+WELCOME THE USER TO THE SYSTEM
+Give options to:
+* Register
+* Login
+* Exit
+
+REGISTRATION PAGE
+- Direct them to what to do
+- Prompt them for the details
+- Successful or not
+- Take them to the main menu
+
+LOGIN PAGE
+- Direct them on what to do
+- prompt them for their email_address and password
+- if accurate: log them in (Take them to the food menu)
+- if not accurate:
+    -> Display an error message
+    -> Display the login page
+
+FOOD MENU PAGE
+- Direct them on what to do
+- Display the menu
+ + Add Food
+ + Delete Food
+ + Update Food
+ + View Foods
+ + Logout -> Login page
+ + Exit -> Shut down the system
